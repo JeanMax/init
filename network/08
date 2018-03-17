@@ -1,0 +1,6 @@
+Pour obtenir le nom de l'herbergeur d'un site, il suffit de faire un 'whois' sur l'adrresse ip de ce site.
+
+> whois $(./network/05) | grep OrgTechName
+OrgTechName:   Amazon EC2 Network Operations
+
+Il sagit ddonc d'une bonne vieille instance AWS EC2 de chez Amazon.
