@@ -1,1 +1,1 @@
-ping slash16.org -c1 | head -n1 | sed -E 's|.* \(([0-9.]*)\) .*|\1|'
+ping slash16.org -c1 | head -n1 | sed -E 's|.* \(([0-9.]*)\): .*|\1|'
