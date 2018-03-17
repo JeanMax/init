@@ -1,0 +1,4 @@
+On peut verifier le type d'un serveur grace à:
+
+> curl -v 42.fr |& grep Server
+< Server: nginx/1.10.3
