@@ -1,0 +1,7 @@
+cat << EOF >> /etc/crontab
+0 4 * * 1 (test -e check.sum \
+	|| md5sum /etc/crontab > check.sum) \
+&& (md5sum --status -c check.sum \
+	|| (mail -s "'/etc/crontab' was modified!" root \
+			&& md5sum /etc/crontab > check.sum))
+EOF
