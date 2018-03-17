@@ -1,0 +1,1 @@
+for i in /var/*; do test -d $i && sudo du -sh $i; done
