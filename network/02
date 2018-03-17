@@ -1,1 +1,1 @@
-ifconfig -a | grep -A 1 -E '(enp|eth)\w*:' | tail -n1 | cut -d' ' -f10
+ifconfig en0 | grep 'inet ' | cut -d' ' -f2
