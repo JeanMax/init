@@ -1,0 +1,1 @@
+Pour modifier le hostname de facon permanente, il suffit de modifier le fichier '/etc/hostname'.
