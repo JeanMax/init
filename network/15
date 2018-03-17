@@ -1,0 +1,4 @@
+Les entrees locales DNS se trouvent dans '/etc/hosts'.
+
+more infos:
+man hosts(5)
